@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="./Font Awesome Icons/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <title>Google</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="first-nav">
+        <a href="https://about.google/">About</a>
+        <a href="https://store.google.com/">Store</a>
+      </div>
+
+      <div class="second-nav">
+        <a href="https://www.google.com/gmail">Gmail</a>
+        <a href="https://www.google.com/imghp">Images</a>
+
+        <!-- Sign In button -->
+        <a class="button" href="">Sign In</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="sub-cont">
+        <div class="google">
+          <h1>
+            <span id="g" class="text">G</span
+            ><span id="first-o" class="text">o</span
+            ><span id="second-o" class="text">o</span
+            ><span id="second-g" class="text">g</span
+            ><span id="l" class="text">l</span
+            ><span id="e" class="text">e</span>
+          </h1>
+        </div>
+
+        <div class="mid-content">
+          <!-- using get displays the url into the search bar and redirects the user to google to make the search successfully -->
+          <!-- giving it a name of q redirects the user to google -->
+          <form action="https://www.google.com/search" method="get">
+            <input
+              type="search"
+              autofocus
+              placeholder="Search Google or type a URL"
+              spellcheck="false"
+              name="q"
+            />
+            <div class="btns">
+              <button type="submit" class="btn btn1">Google Search</button>
+              <button type="submit" o class="btn btn2">
+                I'm Feeling Lucky
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
